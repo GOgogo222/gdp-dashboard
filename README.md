@@ -1,19 +1,40 @@
-# :earth_americas: GDP dashboard template
+# GDP Dashboard
 
-A simple Streamlit app showing the GDP of different countries in the world.
+A simple Streamlit app for exploring GDP data across countries.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
 
-### How to run it on your own machine
+## Features
 
-1. Install the requirements
+- Displays GDP data by country
+- Uses Streamlit for a lightweight interactive dashboard
+- Includes sample data and a minimal app structure
 
-   ```
-   $ pip install -r requirements.txt
+## Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+
+## Run Locally
+
+1. Install the requirements:
+
+   ```bash
+   pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Start the app:
 
+   ```bash
+   streamlit run streamlit_app.py
    ```
-   $ streamlit run streamlit_app.py
-   ```
+
+## Project Structure
+
+```text
+.
+├── data/
+├── requirements.txt
+└── streamlit_app.py
+```
