@@ -1,40 +1,12 @@
-# GDP Dashboard
+# GDP 数据看板
 
-A simple Streamlit app for exploring GDP data across countries.
+用 Streamlit 做的 GDP 数据浏览小工具。
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+[在线预览](https://gdp-dashboard-template.streamlit.app/)
 
-## Features
+## 运行
 
-- Displays GDP data by country
-- Uses Streamlit for a lightweight interactive dashboard
-- Includes sample data and a minimal app structure
-
-## Tech Stack
-
-- Python
-- Streamlit
-- Pandas
-
-## Run Locally
-
-1. Install the requirements:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Start the app:
-
-   ```bash
-   streamlit run streamlit_app.py
-   ```
-
-## Project Structure
-
-```text
-.
-├── data/
-├── requirements.txt
-└── streamlit_app.py
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
 ```
